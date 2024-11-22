@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram Profile Card</title>
+    <!-- Add Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <style>
+        /* Page and animation setup */
+        body {
+            font-family: 'Monaco', monospace;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            background-color: #000000;
+            overflow: hidden;
+        }
+
+        .badge-container {
+            position: fixed;
+            bottom: -100%;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 90%;
+            max-width: 350px;
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            display: flex;
+            animation: slideUp 0.8s ease forwards;
+            box-sizing: border-box;
+        }
+
+        /* Slide-up animation */
+        @keyframes slideUp {
+            from {
+                bottom: -100%;
+            }
+            to {
+                bottom: 50%;
+                transform: translate(-50%, 50%);
+            }
+        }
+
+        /* Instagram header with icon */
+        .left-section {
+            padding: 20px;
+            flex: 1;
+        }
+
+        .header {
+            display: flex;
+            align-items: center;
+            color: #E4405F;
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .header-icon {
+            width: 215px;
+            height: 60px;
+            margin-right: 10px;
+        }
+
+        .header span {
+            font-family: 'Pacifico', cursive; /* Use Instagram-like font */
+            font-size: 28px; /* Adjust font size to make it visually appealing */
+        }
+
+        /* Profile section */
+        .profile-section {
+            display: flex;
+            align-items: center;
+        }
+
+        .profile-photo {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid #fff;
+            margin-right: 10px;
+        }
+
+        .username {
+            font-size: 18px;
+            font-weight: bold;
+            margin: 0;
+            text-decoration: none;
+            color: black;
+        }
+
+        .username:hover {
+            text-decoration: underline;
+        }
+
+        .actual-name {
+            font-size: 14px;
+            color: #000000;
+            margin-top: 5px;
+        }
+
+        /* Followers/Following info */
+        .followers-info {
+            font-size: 14px;
+            color: #888;
+            margin: 15px 0;
+            text-align: center;
+        }
+
+        /* Follow button */
+        .follow-btn {
+            background-color: #000000;
+            border: none;
+            padding: 10px;
+            color: white;
+            border-radius: 5px;
+            font-size: 14px;
+            cursor: pointer;
+            width: 100%;
+            transition: background-color 0.3s;
+        }
+
+        .follow-btn:hover {
+            background-color: #424242;
+        }
+
+        /* QR Code styling */
+        .qr-code {
+            width: 200px;
+            height: 100%;
+            object-fit: cover;
+            border-top-right-radius: 10px;
+            border-bottom-right-radius: 10px;
+        }
+
+        .right-section {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+
+<div class="badge-container">
+    <!-- Left Section with Instagram Info -->
+    <div class="left-section">
+        <!-- Instagram Header with Icon -->
+        <div class="header">
+            <img class="header-icon" src="insta_logo.png" alt="Instagram Icon">
+        </div>
+
+        <!-- Profile Section -->
+        <div class="profile-section">
+            <img class="profile-photo" src="insta_profile.jpg" alt="Profile Photo">
+            <div>
+                <a href="https://www.instagram.com/jagadeesh__97__/" target="_blank" class="username">jagadeesh__97__</a>
+                <p class="actual-name">Jagadeesh Mummana</p>
+            </div>
+        </div>
+
+        <!-- Followers and Following -->
+        <div class="followers-info">
+            Followers: XX | Following: XX
+        </div>
+
+        <!-- Follow Button -->
+        <a href="https://www.instagram.com/jagadeesh__97__/" target="_blank">
+            <button class="follow-btn">Follow</button>
+        </a>
+    </div>
+
+    <!-- Right Section for QR Code -->
+    <div class="right-section">
+        <img class="qr-code" src="insta_qr.png" alt="Instagram QR Code">
+    </div>
+</div>
+
+</body>
+</html>
