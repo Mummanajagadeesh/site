@@ -858,7 +858,7 @@ function scrambleText(target, text, targetText, delay) {
 // Handling h1 (Jagadeesh Mummana -> Hello World!! on hover)
 const header1 = document.querySelector("h1");
 const originalTextH1 = "find . -type d -name \"*projects*\""; // Original text for projects Me section
-const newTextH1 = "./projects"; // New text for projects Me section on hover
+const newTextH1 = ":~$ ./projects"; // New text for projects Me section on hover
 
 header1.addEventListener("mouseover", () => {
     scrambleText(header1, originalTextH1, newTextH1, 35);
