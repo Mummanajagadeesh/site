@@ -543,11 +543,11 @@ function scrambleText(target, text, targetText, delay) {
 
 // Handling h1 (Jagadeesh Mummana -> Hello World!! on hover)
 const header1 = document.querySelector("h1");
-const originalTextH1 = ":~$ cat carrer.md"; // Original text for experience Me section
+const originalTextH1 = ":~$ cat career.md"; // Original text for experience Me section
 const newTextH1 = "error: file not found"; // New text for experience Me section on hover
 
 header1.addEventListener("mouseover", () => {
-    scrambleText(header1, originalTextH1, newTextH1, 35);
+    scrambleText(header1, originalTextH1, newTextH1, 15);
 });
 
 header1.addEventListener("mouseout", () => {
