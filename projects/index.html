@@ -18,6 +18,7 @@
             align-items: center;
             color: white;
             background: black;
+            
         }
 
         /* Full screen background animation */
@@ -57,11 +58,17 @@
             background: rgba(0, 0, 0, 0.264);
             -ms-overflow-style: none;  /* Hide scrollbar on Internet Explorer and Edge */
             scrollbar-width: none; /* Hide scrollbar on Firefox */
+            flex-direction: column; /* Ensure vertical stacking */
+            align-items: flex-start; 
+            text-align: left;
         }
 
         /* Hide scrollbar for Chrome, Safari and Opera */
         #projects-container::-webkit-scrollbar {
             display: none;
+            display: flex; /* Enable flexbox */
+            flex-direction: column; /* Stack children vertically */
+            align-items: flex-start; 
         }
 
         h2, h3, h4 {
@@ -273,6 +280,7 @@
             margin-bottom: 40px;
             padding: 20px;
             border-left: none;
+            text-align:left;
         }
 
         .section img {
@@ -295,10 +303,11 @@
             margin: 0 0 10px;
         }
 
-        .section h3 {
+        .section h4 {
             font-size: 20px;
             color: gray;
             margin: 0 0 10px;
+            text-align:left;
         }
 
         .section p {
@@ -339,6 +348,7 @@
     flex-wrap: wrap;
     gap: 2rem;
     justify-content: center;
+    text-align: left;
     margin-top: 2rem;
 }
 
@@ -471,12 +481,42 @@
     }
 }
 
+
+
 .custom-line {
-  width: 50%;  /* Set the width to a smaller size (adjust as needed) */
+  width: 100%; /* Full width */
   height: 2px; /* Thickness of the line */
-  background-color: #ccc;  /* Color of the line (adjust as needed) */
-  margin: 20px auto;  /* Center the line and add some margin */
+  background-color: #ccc; /* Line color */
+  margin: 20px 0; /* Add vertical spacing, no horizontal centering */
 }
+
+h4 {
+  margin: 20px 0; /* Ensure consistent spacing */
+  padding: 0; /* Reset padding */
+  text-align: left; /* Align text to the left */
+  display: block; /* Explicitly block-level */
+}
+
+/* Remove unnecessary duplicate h4 rules */
+
+/* Ensure h4 following .project-cards has proper spacing */
+.project-cards + h4 {
+  margin-top: 20px; /* Consistent margin */
+}
+
+/* Enforce left alignment for h4 inside .timeline */
+.timeline h4 {
+  text-align: left !important; /* Force alignment */
+  margin: 20px 0; /* Add consistent spacing */
+  padding: 0; /* Reset padding */
+}
+
+/* Optional: Adjust spacing between sections */
+.project-cards {
+  margin-bottom: 20px; /* Add spacing after project cards */
+}
+
+
 
 
 
@@ -511,10 +551,15 @@
     <section id="projects" class="section">
       <div class="timeline">
         <h1>Projects</h1>
-        <hr>
+        
+        <div class="custom-line"></div>
   
         <!-- Project Cards -->
+        <h4 style="text-align: center;">Featured</h4>
+
+        
         <div class="project-cards">
+            
           <!-- Project Card 1 -->
           <div class="project-card">
             <div class="front">
@@ -607,7 +652,8 @@
 
         <div class="custom-line"></div>
         
-        
+        <h4 text-align: "center">RIG [lvl: beginner]</h4>
+
         <div class="project-cards">
           <!-- Project Card 1 -->
           <div class="project-card">
@@ -698,7 +744,7 @@
 
         <div class="custom-line"></div>
         
-        
+        <h4>Webots Simulations [lvl: beginner]</h4>
         <div class="project-cards">
           <!-- Project Card 1 -->
           <div class="project-card">
@@ -788,7 +834,9 @@
           </div>
 
         <div class="custom-line"></div>
-
+        
+        
+        <h4>Verilog [lvl: beginner]</h4>
         <!-- Project Cards -->
         <div class="project-cards">
           <!-- Project Card 1 -->
@@ -825,14 +873,15 @@
           <div class="project-card">
             <div class="front">
               <video src="path/to/another/video" autoplay loop muted></video>
-              <h2 class="project-title">TO BE ADDED</h2>
+              <h2 class="project-title">TLC using Verilog</h2>
             </div>
             <div class="back">
               <div class="description">
-                <p class="typing" data-text="TO BE ADDED"></p>
+                <p class="typing" data-text="Traffic Light Controller using Verilog_"></p>
               </div>
-              <span class="status-tag">STATUS: ONGOING</span>
-              <a href="TO BE ADDED" target="_blank" class="btn">V13W PR0J3C7</a>
+              <span class="status-tag">STATUS: ONGOING;</span>
+              <span class="status-tag">PROJECT_LVL: BEGINNER;</span>
+              <a href="h" target="_blank" class="btn">V13W PR0J3C7</a>
             </div>
           </div>
   
@@ -840,14 +889,15 @@
           <div class="project-card">
             <div class="front">
               <video src="path/to/another/video" autoplay loop muted></video>
-              <h2 class="project-title">TO BE ADDED</h2>
+              <h2 class="project-title">RISC-V 32-bit Verilog_</h2>
             </div>
             <div class="back">
               <div class="description">
-                <p class="typing" data-text="TO BE ADDED"></p>
+                <p class="typing" data-text="Verilog implementation of RISC-V 32-bit with ALU, EU > BLU, etc.._"></p>
               </div>
-              <span class="status-tag">STATUS: ONGOING</span>
-              <a href="TO BE ADDED" class="btn">V13W PR0J3C7</a>
+              <span class="status-tag">STATUS: ONGOING;</span>
+              <span class="status-tag">PROJECT_LVL: BEGINNER;</span>
+              <a href="h" target="_blank" class="btn">V13W PR0J3C7</a>
             </div>
           </div>
 
