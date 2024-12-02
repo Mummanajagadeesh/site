@@ -16,7 +16,7 @@
 - [ ] Add more content to the **About** page  
 - [ ] Add social media cards that pop up when hovered over their respective icons [cards are ready --building js logic]
 - [ ] **Contact Page**  
-  - [ ] Implement social media icons with a `turtlesim` drawing of tree*(Ongoing)*  
+  - [ ] Implement social media icons with a `turtlesim` drawing of tree *(Ongoing)*  
 - [ ] Start a tech blog using **Jekyll** or **Hugo**  
   - [ ] First Blogs: 
     - [ ] "Hello World" post with a brief personal introduction  
