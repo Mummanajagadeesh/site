@@ -9,9 +9,10 @@ Create a **Skills** page
 Add social media cards that pop up when hovered over their respective icons
 
 Contact Page
-   - Implement social media icons integrated with a `turtlesim` drawing *(Ongoing)*  
-Start a tech blog using **Jekyll** or **Hugo**:  
-   - Content Collection for **Kociemba 2-Phase Algorithm** *(Currently Active)* 
+   - Implement social media icons integrated with a `turtlesim` drawing *(Ongoing)*   
+   - Content Collection for **Kociemba 2-Phase Algorithm** *(Currently Active)*
+
+Start a tech blog using **Jekyll** or **Hugo**
 
 First Blog:  
   - Introduction to blogging on GitHub Pages
