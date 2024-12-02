@@ -24,3 +24,4 @@
 - [ ] Create separate sections for **Resume** (using Overleaf LaTeX) and **Blog**  
 - [ ] Improve SEO for the website  
 - [ ] Add a link to the **Shopping Cart Bot** project and improve its documentation  
+- [ ] Should optimise for mobile screen
