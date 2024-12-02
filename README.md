@@ -6,7 +6,7 @@
 - [x] Add multiple videos support for project cards  
 - [ ] Fix overflow of text on the back of project cards  
 - [ ] Use different backgrounds for different pages  
-- [ ] Separate JavaScript and CSS files from the `index.html` and reference them accordingly  
+- [ ] Separate js and css from the `index.html` and reference them accordingly  
 - [ ] Create a **Skills** page
 - [ ] Collect content for skills page
 - [ ] Add more content to the **About** page  
