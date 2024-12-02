@@ -9,6 +9,7 @@
 - [ ] Separate js and css from the `index.html` and reference them accordingly  
 - [ ] Create a **Skills** page
 - [ ] Collect content for skills page
+- [ ] More projects to included in **Projects** page --analog --iot --ros2 --cv
 - [ ] Add more content to the **About** page  
 - [ ] Add social media cards that pop up when hovered over their respective icons [cards are ready --building js logic]
 - [ ] **Contact Page**  
