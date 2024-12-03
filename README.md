@@ -11,14 +11,14 @@
 - [ ] Create a **Skills** page
 - [ ] Collect content for skills page ---> icons vs names
 - [ ] More projects to included in **Projects** page --analog --iot --ros2 --cv etc
-- [ ] Seperate sections to be added for subfiels --perception --navigation --path planning --control etc
+- [ ] Seperate sections to be added for subfiels --perception --navigation --path planning --control etc [preferably timeline]
 - [ ] Adding tags for projects and add filters based on them + sort --some projects come under multiple categs
 - [ ] Add more content to the **About** page  
 - [ ] Add social media cards that pop up when hovered over their respective icons [cards are ready --building js logic]
 - [ ] **Contact Page**  
   - [ ] Implement social media icons with a `turtlesim` drawing of tree *(**Currently Active**)*  
 - [ ] Start a tech blog using **Jekyll** or **Hugo**  *(**Currently active**)*
-  - [ ] First Blogs: 
+  - [ ] First Blogs: (chirpy or minimal if jekyll)
     - [ ] "Hello World" post with a brief personal introduction  
     - [ ] Introduction to blogging on GitHub Pages  
 - [ ] Create separate sections for **Resume** (using Overleaf LaTeX) and **Blog**  
