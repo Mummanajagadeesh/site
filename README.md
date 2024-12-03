@@ -2,14 +2,14 @@
 
 ## To-Do List
 
-- [x] Fix theme of overall site  
-- [x] Add multiple videos support for project cards
-- [x] Seperate projects based on category
-- [ ] Fix overflow of text on the back of project cards  
-- [ ] Use different backgrounds for different pages  
-- [ ] Separate js and css from the `index.html` and reference them accordingly  
+- [x] Fix theme of overall site ---> dofoco fff 000
+- [x] Add multiple videos support for project cards ---> can randomise the first video to pop up
+- [x] Seperate projects based on category ---> adding tags and filters yet to be done
+- [ ] Fix overflow of text on the back of project cards 
+- [ ] Use different backgrounds for different pages  ---> codes ready, issues with position match wrt other pages
+- [ ] Separate js and css from the `index.html` and reference them accordingly  ---> must do, to improve scalability
 - [ ] Create a **Skills** page
-- [ ] Collect content for skills page
+- [ ] Collect content for skills page ---> icons vs names
 - [ ] More projects to included in **Projects** page --analog --iot --ros2 --cv
 - [ ] Seperate sections to be added for subfiels --perception --navigation --path planning --control
 - [ ] Adding tags for projects and add filters based on them + sort --some projects come under multiple categs
@@ -22,6 +22,6 @@
     - [ ] "Hello World" post with a brief personal introduction  
     - [ ] Introduction to blogging on GitHub Pages  
 - [ ] Create separate sections for **Resume** (using Overleaf LaTeX) and **Blog**  
-- [ ] Improve SEO for the website  
-- [ ] Add a link to the **Shopping Cart Bot** project and improve its documentation  
-- [ ] Should optimise for mobile screen
+- [ ] Improve SEO for the website  ---> current sitemaps are screwed up, made it still harder to find ||| should wait for 2-3 weeks
+- [ ] Add a link to the **Shopping Cart Bot** project and improve its documentation  ---> should push some code as well before documenting (espip|ros2|etc)
+- [ ] Should optimise for mobile screen ---> some unwanted optimisations for timeline should be removed, also the font size of headers should be dec in mobile screens
