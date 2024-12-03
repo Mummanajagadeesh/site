@@ -5,7 +5,7 @@
 - [x] Fix theme of overall site ---> dofoco fff 000
 - [x] Add multiple videos support for project cards ---> can randomise the first video to pop up
 - [x] Seperate projects based on category ---> adding tags and filters yet to be done
-- [ ] Fix overflow of text on the back of project cards 
+- [ ] Fix overflow of project desc text on the back of project cards ---> typing animation is not working (to be resolved, code already exists)
 - [ ] Use different backgrounds for different pages  ---> codes ready, issues with position match wrt other pages
 - [ ] Separate js and css from the `index.html` and reference them accordingly  ---> must do, to improve scalability
 - [ ] Create a **Skills** page
