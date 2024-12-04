@@ -28,7 +28,7 @@
     - [ ] Types of algorithms to solve all cases and approach building  
     - [ ] Optimizing the solution  
     - [ ] Unity 3D approach to reverify by running simulations [2–3 parts explaining how to, if required]  
-    - [ ] Mechanical integration, selection of actuators to be used  
+    - [ ] Mechanical integration, selection of motors to be used -- considering 1 fixed 5 free approach [5] 
     - [ ] Coding the algorithms [walkthrough with optimization of the process]  
     - [ ] TO BE ADDED
   - [ ] Project ProtoX
