@@ -37,3 +37,7 @@
 - [ ] Add a link to the **Shopping Cart Bot** project and improve its documentation  ---> should push some code as well before documenting (espip|ros2|etc)
 - [ ] Should optimise for mobile screen ---> some unwanted optimisations for timeline should be removed, also the font size of headers should be dec in mobile screens
 - [ ] Should include a photo on home page
+
+
+All small projects should be grouped together to save space on the projects page --all webots projects under "purpose-specific/concept bots"
+ProtoX
