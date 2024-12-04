@@ -30,7 +30,8 @@
     - [ ] Unity 3D approach to reverify by running simulations [2–3 parts explaining how to, if required]  
     - [ ] Mechanical integration, selection of actuators to be used  
     - [ ] Coding the algorithms [walkthrough with optimization of the process]  
-    - [ ] TO BE ADDED  
+    - [ ] TO BE ADDED
+  - [ ] Project PROTOX
 - [ ] Create separate sections for **Resume** (using Overleaf LaTeX) and **Blog**  
 - [ ] Improve SEO for the website  ---> current sitemaps are screwed up, made it still harder to find ||| should wait for 2-3 weeks
 - [ ] Add a link to the **Shopping Cart Bot** project and improve its documentation  ---> should push some code as well before documenting (espip|ros2|etc)
