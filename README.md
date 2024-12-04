@@ -17,10 +17,20 @@
 - [ ] Add social media cards that pop up when hovered over their respective icons [cards are ready --building js logic]
 - [ ] **Contact Page**  
   - [ ] Implement social media icons with a `turtlesim` drawing of tree *(**Currently Active**)*  
-- [ ] Start a tech blog using **Jekyll** or **Hugo**  *(**Currently active**)*
-  - [ ] First Blogs: (chirpy or minimal if jekyll)
+- [ ] Start a tech blog using **Jekyll** or **Hugo** *(**Currently active**)*
+  - [ ] First Blogs: (chirpy or minimal if Jekyll)
     - [ ] "Hello World" post with a brief personal introduction  
-    - [ ] Introduction to blogging on GitHub Pages  
+    - [ ] Introduction to blogging on GitHub Pages
+  - [ ] Rubik's Cube Solver [7+ parts]:
+    - [ ] Intro to cube solving, its mechanics  
+    - [ ] Types and methods to solve using traditional standard methods—CFOP/Fridrich, Roux....  
+    - [ ] How can computers come into play—explaining the number of cases to be solved [12 rejected one]  
+    - [ ] Types of algorithms to solve all cases and approach building  
+    - [ ] Optimizing the solution  
+    - [ ] Unity 3D approach to reverify by running simulations [2–3 parts explaining how to, if required]  
+    - [ ] Mechanical integration, selection of actuators to be used  
+    - [ ] Coding the algorithms [walkthrough with optimization of the process]  
+    - [ ] TO BE ADDED  
 - [ ] Create separate sections for **Resume** (using Overleaf LaTeX) and **Blog**  
 - [ ] Improve SEO for the website  ---> current sitemaps are screwed up, made it still harder to find ||| should wait for 2-3 weeks
 - [ ] Add a link to the **Shopping Cart Bot** project and improve its documentation  ---> should push some code as well before documenting (espip|ros2|etc)
