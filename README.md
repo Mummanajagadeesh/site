@@ -38,6 +38,6 @@
 - [ ] Should optimise for mobile screen ---> some unwanted optimisations for timeline should be removed, also the font size of headers should be dec in mobile screens
 - [ ] Should include a photo on home page
 
-
+All empty repos must be deleted 
 All small projects should be grouped together to save space on the projects page --all webots projects under "purpose-specific/concept bots"
 ProtoX
