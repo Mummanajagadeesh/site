@@ -36,4 +36,4 @@
 - [ ] Improve SEO for the website  ---> current sitemaps are screwed up, made it still harder to find ||| should wait for 2-3 weeks
 - [ ] Add a link to the **Shopping Cart Bot** project and improve its documentation  ---> should push some code as well before documenting (espip|ros2|etc)
 - [ ] Should optimise for mobile screen ---> some unwanted optimisations for timeline should be removed, also the font size of headers should be dec in mobile screens
-- [ ] Should a photo on home page
+- [ ] Should include a photo on home page
