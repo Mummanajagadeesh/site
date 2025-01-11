@@ -20,7 +20,8 @@
 - [x] Start a tech blog using **Jekyll** or **Hugo** *(**Currently active**)*
   - [x] First Blogs: (chirpy or minimal if Jekyll)
     - [x] "Hello World" post with a brief personal introduction  
-    - [ ] Introduction to blogging on GitHub Pages
+    - [x] Introduction to blogging on GitHub Pages
+    - [ ] Other starters
   - [ ] Rubik's Cube Solver [7+ parts]:
     - [ ] Intro to cube solving, its mechanics  
     - [ ] Types and methods to solve using traditional standard methods—CFOP/Fridrich, Roux....  
